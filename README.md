@@ -412,7 +412,7 @@ I even wrote a whole book on [Geometry for Programmers](https://www.amazon.com/G
 
 But for this particular language, I wanted to avoid introducing another type so much, that I do all the arithmetics on decimal strings. Like in COBOL.
 
-There is one unorthodox rule: the precision of the result is the maximum precision of the argument. The rule means that `1/3` and `1.00/3` result in different numbers. The former is 0, and the latter - `0.33`. The rest is business as usual.
+There is one unorthodox rule: the precision of the result is the maximum precision of the argument. The rule means that `1/3` and `1.00/3` result in different numbers. The former is `0`, and the latter - `0.33`. The rest is business as usual.
 
 Except, of course, this time the expressions are in postfix notation, they propagate to tensors, and instead of operators we have prefix+operation pairs.
 
