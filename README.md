@@ -694,7 +694,7 @@ Sure! To add an operation pair to the language you might want to do three things
 
 1. Invent a meaningful program that wouldn't run unless you add your thing. 
 2. Add your thing so the program will run and be meaningful.
-3. Prepare the pull request with the changes in the code and a program added to the list of meaningful programs.
+3. Prepare the pull request with the changes in the code and your program added to the list of meaningful programs.
 
 I'll start.
 
