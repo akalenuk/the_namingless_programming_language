@@ -114,7 +114,7 @@ Here is the full list of the operation pair prefixes.
 - Y - double quote
 - ^ - elevate all the last elements of the same rank
 - | - put an element of the current branch on top by index
-- # - remove all but the targeted by index element for the selected depth
+- \# - remove all but the targeted by index element for the selected depth
 - m - replicate an item multiple times
 - H - duplicate the last element
 - X - drop the last element
