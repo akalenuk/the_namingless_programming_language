@@ -408,7 +408,7 @@ I love floating-point numbers. I wrote several tutorials on them:
 
 -[Why is it ok to divide by 0.0? ](https://wordsandbuttons.online/why_is_it_ok_to_divide_by_0_0.html)
 
-I even wrote a whole book on (Geometry for Programmers)[https://www.amazon.com/Geometry-Programmers-Oleksandr-Kaleniuk/dp/1633439607] and it's half symbolic computations, half numeric so at least half of the book is concerned with floating-point numbers.
+I even wrote a whole book on [Geometry for Programmers](https://www.amazon.com/Geometry-Programmers-Oleksandr-Kaleniuk/dp/1633439607) and it's half symbolic computations, half numeric so at least half of the book is concerned with floating-point numbers too.
 
 But for this particular language, I wanted to avoid introducing another type so much, that I do all the arithmetics on decimal strings. Like in COBOL.
 
