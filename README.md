@@ -701,7 +701,9 @@ I'll start.
 
 ### The list of meaningful programs
 
-#### i_^_b_H_i_cpp^_)_V_b_v_J_^_E_H_leafL_==^_)_V_H_Z_Z_^_)_V_H_I_^_E_1^_2^_#_G_Z_Z_^_E_1^_2^_#_H_$_L_-^_G_m_G_&_&_
+#### Parse the source code and list the operation pairs that are currently in the language
+
+    i_^_b_H_i_cpp^_)_V_b_v_J_^_E_H_leafL_==^_)_V_H_Z_Z_^_)_V_H_I_^_E_1^_2^_#_G_Z_Z_^_E_1^_2^_#_H_$_L_-^_G_m_G_&_&_
 
 This program parses the `.cpp` files in the current directory looking for a string like this:
 
