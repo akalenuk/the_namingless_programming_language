@@ -122,14 +122,14 @@ Here is the full list of the operation pair prefixes.
 - A - elevate an empty element
 - $ - count
 - v - deelevate last element
-- + - addition
-- - - subtraction
+- \+ - addition
+- \- - subtraction
 - x - multiplication
 - z - division
 - = - equal?
 - % - numerically equal?
 - < - less?
-- > - greater?
+- \> - greater?
 - ( - substring?
 - ) - superstring?
 - \[ - string starts with?
@@ -732,14 +732,14 @@ The resulting array is the list of operation prefixes this language supports wit
                 A - elevate an empty element
                 $ - count
                 v - deelevate last element
-                + - addition
-                - - subtraction
+                \+ - addition
+                \- - subtraction
                 x - multiplication
                 z - division
                 = - equal?
                 % - numerically equal?
                 < - less?
-                > - greater?
+                \> - greater?
                 ( - substring?
                 ) - superstring?
                 \[ - string starts with?
