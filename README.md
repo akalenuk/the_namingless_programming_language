@@ -147,7 +147,7 @@ Here is the full list of the operation pair prefixes.
 - o - delete file
 - e - help
 
-By the way, the list is automatically generated from the source code by the "i_^_b_H_i_cpp^_)_V_b_v_J_^_E_H_leafL_==^_)_V_H_Z_Z_^_)_V_H_I_^_E_1^_2^_#_G_Z_Z_^_E_1^_2^_#_H_$_L_-^_G_m_G_&_&_".
+By the way, the list is automatically generated from the source code by the `i_^_b_H_i_cpp^_)_V_b_v_J_^_E_H_leafL_==^_)_V_H_Z_Z_^_)_V_H_I_^_E_1^_2^_#_G_Z_Z_^_E_1^_2^_#_H_$_L_-^_G_m_G_&_&_`.
 
 
 ### The most important operation pair
