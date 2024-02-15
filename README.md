@@ -11,7 +11,7 @@ This is a programming language based on three paradigms:
 - [Stack-oriented programming](https://en.wikipedia.org/wiki/Stack-oriented_programming)
 - [Array programming](https://en.wikipedia.org/wiki/Array_programming)
 
-The main feature of the language is its avoidance of any naming of any sort. True to this maxima, the language itself doesn't have a name. "The namingless programming language" is a definition. 
+The main feature of the language is its avoidance of any naming of any sort. True to this maxim, the language itself doesn't have a name. "The namingless programming language" is a definition. 
 
 Since there is only one such language in existence, *it doesn't need a name*.
 
