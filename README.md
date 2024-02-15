@@ -63,15 +63,15 @@ The operation is spelled '_' and it takes the last element from the branch befor
 
 E. g. to add 2 and 2, you need to:
 
-1. put a char 2 as a string. The pair for that is "^" and "_".
+1. put a char 2 as a string. The pair for that is `^` and `_`.
 
     2^_
 
-2. then you need another 2 as a string. You can do the same "2^_" thing but you can also duplicate the last element in the current branch with a "H" and "_" pair.
+2. then you need another 2 as a string. You can do the same `2^_` thing but you can also duplicate the last element in the current branch with a `H` and `_` pair.
 
     H^_
 
-3. finally, you need to perform the addition itself. That's easy, that's "+" and "_".
+3. finally, you need to perform the addition itself. That's easy, that's `+` and `_`.
 
     +_
 
