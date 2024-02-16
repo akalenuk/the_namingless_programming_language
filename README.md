@@ -59,7 +59,7 @@ Please note that none of these terms are names for anything language-specific. T
 
 There is also the operation. Not "an operation" but "the operation" since there is only one operation in the language. Since there is only one, *it doesn't need a name* either.
 
-The operation is spelled '_' and it takes the last element from the branch before it and acts accordingly. So essentially the semantics of the operation is set by the pair of a prefix - a symbol before the operation - and the operation itself.
+The operation is spelled `_` and it takes the last element from the branch before it and acts accordingly. So essentially the semantics of the operation is set by the pair of a prefix - a symbol before the operation - and the operation itself.
 
 E. g. to add 2 and 2, you need to:
 
@@ -163,48 +163,48 @@ Since the source code for the language comes from the name of the executable, an
 
 #### Underscore
 
-Since '_' is the command, you can't use it in arbitrary strings as it is. So the escape for the underscore is "U_". 
+Since `_` is the command, you can't use it in arbitrary strings as it is. So the escape for the underscore is `U_`. 
 
 "U" has been chosen since it kind of contains the underscore in its bottom part. This is the recurring pattern. A grapheme that substitutes a symbol is usually a symbol with something else.
 
 
 #### Slash
 
-You can't usually use slashes in the file names. And even when you can it wouldn't be a good idea. Trust me. So there is an escape pair that puts "/" into the current data structure, and it is "Z_".
+You can't usually use slashes in the file names. And even when you can it wouldn't be a good idea. Trust me. So there is an escape pair that puts `/` into the current data structure, and it is `Z_`.
 
 Like with "U", "Z" is a slash plus two extra lines.
 
 
 #### Backslash
 
-By the same logic, the backslash is a "N_" pair. "\" plus two extra lines.
+By the same logic, the backslash is a `N_` pair. "\" plus two extra lines.
 
 
 #### Line break
 
-"J" looks like a bit like a return sign "⏎". So the pair for the line break is "J_".
+"J" looks like a bit like a return sign "⏎". So the pair for the line break is `J_`.
 
 
 #### Dot
 
-Since a dot is used as a name-extension separator on Windows, we can use "i_" as a dot substitute just not to mess with the way file managers prefer to show stuff.
+Since a dot is used as a name-extension separator on Windows, we can use `i_` as a dot substitute just not to mess with the way file managers prefer to show stuff.
 
 
 #### Space
 
-Although there is nothing wrong with putting space in the file name, sometimes it makes routine UI operations like copying things harder so we can avoid spaces by "L_" substitution.
+Although there is nothing wrong with putting space in the file name, sometimes it makes routine UI operations like copying things harder so we can avoid spaces by `L_` substitution.
 
 "L" is a horizontal line representing the space itself, and a vertical line that serves no purpose.
 
 
 #### Single quote
 
-"I_" stands for the single quote. You probably wouldn't get it until you see the double-quote pair.
+`I_` stands for the single quote. You probably wouldn't get it until you see the double-quote pair.
 
 
 #### Double quote
 
-"Y_" is the double quote. "I" and "Y", single and double. Does it make sense now?
+`Y_` is the double quote. "I" and "Y", single and double. Does it make sense now?
 
 
 ### Data handling
