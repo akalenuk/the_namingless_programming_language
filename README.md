@@ -177,7 +177,7 @@ Like with "U", "Z" is a slash plus two extra lines.
 
 #### Backslash
 
-By the same logic, the backslash is a `N_` pair. "\" plus two extra lines.
+By the same logic, the backslash is a `N_` pair. "\\" plus two extra lines.
 
 
 #### Line break
