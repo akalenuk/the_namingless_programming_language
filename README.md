@@ -69,7 +69,7 @@ E. g. to add 2 and 2, you need to:
 
 2. then you need another 2 as a string. You can do the same `2^_` thing but you can also duplicate the last element in the current branch with a `H` and `_` pair.
 
-    H^_
+    H_
 
 3. finally, you need to perform the addition itself. That's easy, that's `+` and `_`.
 
