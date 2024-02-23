@@ -640,10 +640,10 @@ It expects two trees of the same configuration. One with strings the other with,
 So this program
 
 1. elevates a string "pre,the,post",
-2. splits it by the `,` getting an array `put the post`,
-3. duplicates the split string `put the post`,
+2. splits it by the `,` getting an array `pre the post`,
+3. duplicates the split string `pre the post`,
 4. applies the "is a superstring of `p`" for the last split tree resulting in array `1 0 1`.
-5. and, finally, applies the filter `1 0 1` to the `put the post` array resulting in a smaller array with strings where the letter `p` occurs:
+5. and, finally, applies the filter `1 0 1` to the `pre the post` array resulting in a smaller array with strings where the letter `p` occurs:
 
     pre
     post
