@@ -758,3 +758,24 @@ The resulting array is the list of operation prefixes this language supports wit
                 p - save to file
                 o - delete file
                 e - help
+
+## P. S.
+
+Not so long ago I published this namingless programming language to get it out of my system and it was a great success. I mean, I did get it out of my system successfully, and I somehow don't feel like playing with it anymore. Which is a shame since it really deserves a couple of new features.
+
+First of all, the language lacks operators. In a mathematical sense, so functions that work on functions. It would be really simple to add one since the input for an interpreter is a string, and a branch with 1-char leaves is a string itself.
+
+So the very first operator I would have added would have been the thing that does iterations. It takes a string as an argument, and evaluates the string continuously until the last argument in the subbranch is `1`. 
+
+We can normally avoid doing loops and ifs with filtering, but an iteration is something that implies side effects or a consequent state change, you can't run iterations in parallel, they should run consequently. Currently, the language has no facilities for that.
+
+Don't know what a fitting grapheme should be. I would have probably taken `G` from the element swap and gave that the `S` instead.
+
+Also, I've heard that the language is not entirely namingless as prefixes work like names, so I want to challenge that a little too. A one-char prefix is just one possible way to guide the operation. There can just as well be multiple-char prefixes and, of course, one and only one no-char one.
+
+So the other feature I would have added would be a prefixless rank operation. If the prefix of the operation is not a leaf with a single char, then the operation treats the prefix as a tensor and returns its rank.
+
+I wish I could add these two features myself, they would have improved the language quite a bit, but I don't want to. It was really fun working on an esoteric language for a while, but I think as for today, I burned out. However, if you feel like picking the baton, please do. 
+
+I promise it will be fun. For a while.
+
