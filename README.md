@@ -213,7 +213,7 @@ Although there is nothing wrong with putting space in the file name, sometimes i
 
 I see your confusion. This prefix doesn't have a coherent name. Well, naming *is* hard, that's why I started the whole thing to begin with. 
 
-What it does *usually* is it turns a piece of string into a subbranch conining the piece of string.
+What it does *usually* is it turns a piece of string into a subbranch containing the piece of string.
 
 E. g. you want to add 12 and 23 together. In a normal language, you have literals, syntaxis, and operators, so `12 + 23` is the common way to do that. In this language, you only have a string of chars as input, so to add two numbers together, you need to segregate one from another first.
 
